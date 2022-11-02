@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="images/logo.jpg" alt="Spotify" /> Spotify
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songList">
+        <h1>Best of Darshan Raval</h1>
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img src="/images/cover1.jpg" alt="0" />
+            <span class="songName">Asal Mein</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:33
+                <i id="0" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="/images/cover2.jpg" alt="1" />
+            <span class="songName">Tu Mileya</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:58
+                <i id="1" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="/images/cover3.jpg" alt="2" />
+            <span class="songName">Hawa Banke</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:52
+                <i id="2" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="/images/cover4.jpg" alt="3" />
+            <span class="songName">Ek Tarfa</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:50
+                <i id="3" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="/images/cover5.jpg" alt="4" />
+            <span class="songName">Tere Naal</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:15
+                <i id="4" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="/images/cover6.jpg" alt="5" />
+            <span class="songName">Saari Ki Saari</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:38
+                <i id="5" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+
+          <div class="songItem">
+            <img src="/images/cover7.jpg" alt="6" />
+            <span class="songName">Rabba Mehar Kari</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:29
+                <i id="6" class="far songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <!--  Fontawesome icons  -->
+        <i class="fas fa-3x fa-fast-backward" id="previous"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-3x fa-fast-forward" id="next"></i>
+      </div>
+      <div class="songInfo">
+        <img src="/images/playing.gif" width="42px" alt="" id="gif" />
+        <span id="masterSongName">Asal mein</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9e366e5974.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
